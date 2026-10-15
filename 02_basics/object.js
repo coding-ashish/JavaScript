@@ -1,5 +1,7 @@
 //Object have two declaration method.
 //1. Object constructor
+
+//Remember one thing that singleton objects can only be made via object constructors.
 //2. Object literals :
 
 const JsUser = {
