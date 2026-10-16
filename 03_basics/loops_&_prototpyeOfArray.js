@@ -22,3 +22,11 @@ const myArr = [1, 2, 3, 4, 5, 6]
 // map with chaining :-
 const newArr1 = myArr.map((num) => num * 10).map((num) => num * 10)
 console.log(newArr1);
+
+//Reduce of array
+
+const acc = myArr.reduce((acc, ele) => {
+    return acc = acc + ele;
+}, 0)
+
+console.log(acc)
